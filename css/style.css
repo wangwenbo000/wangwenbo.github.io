@@ -172,6 +172,7 @@ a:hover, a:active {
 .sidebar {
   width: 40%;
   -webkit-background-size: cover;
+  background: url('../images/wang.jpg') no-repeat;
   background-size: cover;
   background-color: #fff;
   height: 100%;
@@ -185,8 +186,6 @@ a:hover, a:active {
 .sidebar .logo-title {
   text-align: center;
   padding-top: 240px;
-  border-radius: 50%;
-  overflow: hidden;
 }
 .sidebar .logo-title .description {
   font-size: 14px;
@@ -394,10 +393,11 @@ a:hover, a:active {
   position: absolute;
   width: 100%;
   padding-bottom: 20px;
-  background: #fff;
+  /* background: #fff; */
+  color:#fff;
 }
 .footer a {
-  color: #A6A6A6;
+  color: #fff;
 }
 .footer a:hover {
   color: #4786D6;
@@ -685,6 +685,7 @@ a.btn {
     width: 100%;
     z-index: 2;
     position: absolute;
+    background: #fff;
   }
 
   .footer {
