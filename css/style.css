@@ -111,12 +111,12 @@ a:hover, a:active {
 .content {
   height: auto;
   float: right;
-  width: 60%;
+  width: 70%;
   margin-top: 60px;
 }
 
 .page-top {
-  width: 60%;
+  width: 70%;
   position: fixed;
   right: 0;
   z-index: 3;
@@ -170,7 +170,7 @@ a:hover, a:active {
 }
 
 .sidebar {
-  width: 40%;
+  width: 30%;
   -webkit-background-size: cover;
   background: url('../images/wang.jpg') no-repeat;
   background-size: cover;
@@ -189,10 +189,15 @@ a:hover, a:active {
 }
 .sidebar .logo-title .description {
   font-size: 14px;
-  color: #565654;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
 }
 .sidebar .logo-title .logo {
   margin: 0 auto;
+}
+.sidebar .logo-title .title img{
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.5);
 }
 .sidebar .logo-title .title h3 {
   text-transform: uppercase;
@@ -200,11 +205,12 @@ a:hover, a:active {
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 1;
-  margin: 0;
+  margin: 10px 0;
 }
 .sidebar .logo-title .title a {
   text-decoration: none;
-  color: #464646;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -223,7 +229,8 @@ a:hover, a:active {
   line-height: 0;
 }
 .sidebar .social-links a {
-  color: #565654;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
 }
 .sidebar .social-links a:hover {
   color: #4786D6;
